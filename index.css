@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(1, 201, 253);
+}
+
+.logo {
+    position: absolute;
+    height: auto;
+    width: 150px;
+    border-radius: 20%;
+    left: 31%;
+    top: 1%;
+    box-shadow: 10px 10px 75px rgb(255, 255, 255);
+}
+
+.deb {
+    position: absolute;
+    background-color: rgba(91, 91, 254, 0);
+    top: 30%;
+    left: 28%;
+    text-align: center;
+    object-position: center;
+
+}
+
+.debtxt {
+    background-color: rgba(175, 27, 255, 0.882);
+    font-size: 30px;
+    border-radius: 20px;
+    font-family: 'Caveat', sans-serif;
+    padding: 10px;
+    text-align: center;
+    border-color: black;
+    border-width: 2%;
+}
+
+.fin {
+    position: absolute;
+    background-color: rgba(91, 91, 254, 0);
+    top: 55%;
+    left: 28%;
+}
+
+.fintxt {
+    background-color: rgba(175, 27, 255, 0.882);
+    font-size: 30px;
+    border-radius: 20px;
+    font-family: 'Caveat', sans-serif;
+    padding: 10px;
+    text-align: center;
+}

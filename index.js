@@ -19,15 +19,12 @@ function getRandomInt2(min, max) {
   }
 
 document.getElementById('générer').addEventListener('click', function(){
-    const wordList2 = ["baobab", "arbre", "gourmand", "gras", "seum", "caca"];
+    const wordList2 = ["baobab", "arbre", "gourmand", "gras", "seum", "caca", "tournevis", "marteau", "canif", "ciseau", "téléphone", "scotch", "tourtel", "infection", "pensement", "chapeau", "canapé", "vélo", "livre", "écran", "singe", "bouffon", "morve", "pupitre", "bonjour", "coucou", "hirondelle" ];
     const randomWord2 = getRandomWord2(wordList2);
     console.log("Mot choisi au hasard :", randomWord2);
-    document.getElementById('fintxt').textContent = randomWord2;
 
-    const wordList = ["va dormir dans ton ", "ravale ton ", "va manger ton ", "déguste ton ", "reste dans ton ", "retourne dans ton "];
+    const wordList = ["va dormir dans ton ", "ravale ton ", "va manger ton ", "déguste ton ", "reste dans ton ", "retourne dans ton ", "Lis dans ton ", "va courir dans ton ", "va nager dans ton ", "Chante dans ton ", "va jouer dans ton ", "Graille ton ", "témoigne ton "   ];
     const randomWord = getRandomWord(wordList);
     console.log("Mot choisi au hasard :", randomWord);
-    document.getElementById('debtxt').textContent = randomWord;
-
-    alert(randomWord + randomWord2)
+    document.getElementById('debtxt').textContent = randomWord + randomWord2;
 })

@@ -11,36 +11,38 @@
     height: auto;
     width: 150px;
     border-radius: 20%;
-    left: 31%;
-    top: 2%;
+    margin-left: 33%;
+    margin-top: 3%;
     box-shadow: 10px 10px 75px rgb(255, 255, 255);
 }
 
 .deb {
     position: absolute;
-    background-color: #FFD3BA;
-    top: 30%;
-    left: -10%;
+    background-color: #ffd3ba00;
+    margin-top: 60%;
+    margin-left: -15%;
     text-align: center;
     object-position: center;
-    width: 500px;
-
+    width: 600px;
+    justify-content: center;
+    border-width: 0%;
 }
 
 .debtxt {
-    font-size: 40px;
+    font-size: 37px;
     border-radius: 20px;
     font-family: 'Caveat', sans-serif;
     padding: 10px;
     text-align: center;
     border-color: black;
-    border-width: 2%;
+    border-width: 0%;
+    margin-left: -10%;
 }
 
 .générer {
     position: absolute;
-    top: 45%;
-    left: 30%;
+    margin-top: 85%;
+    margin-left: 32%;
     padding: 5%;
     width: 150px;
     background-color: #805d93a2;
@@ -61,21 +63,48 @@
     overflow: auto;
     position: absolute;
     background-color: #FFD3BA;
-    top: 70%;
-    left: 4%;
+    margin-top: 150%;
+    margin-left: 5%;
     width: 350px;
     padding: 15px;
-    height: 150px;
+    height: 175px;
     border-radius: 20px;
     font-family: 'Caveat', sans-serif;
     font-size: 25px;
 }
 
 .titre {
-    top: 60%;
+    margin-top: 130%;
     position: absolute;
     font-family: 'Caveat', sans-serif;
-    left: 12%;
+    margin-left: 16%;
+}
+.menulogo {
+    height: auto;
+    width: 25px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 3%;
+    z-index: 51;
+    background-color: #F49FBC;
 }
 
+.menu {
+    position: absolute;
+    background-color: #f4b6caeb;
+    z-index: 50;
+    height: 1500px;
+    width: 250px;
+}
+
+.connexionboutton {
+    padding: 10px;
+    position: absolute;
+    background-color: #F49FBC;
+    margin-left: 25%;
+    margin-top: 10%;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 15px;
+}
 

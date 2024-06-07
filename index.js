@@ -19,7 +19,7 @@ function getRandomInt2(min, max) {
   }
 
 document.getElementById('générer').addEventListener('click', function(){
-    const wordList2 = ["baobab", "arbre", "gourmand", "gras", "seum", "caca", "tournevis", "marteau", "canif", "ciseau", "téléphone", "scotch", "tourtel", "infection", "pensement", "chapeau", "canapé", "vélo", "livre", "écran", "singe", "bouffon", "morve", "pupitre", "bonjour", "coucou", "hirondelle", "baka", "sylvain", "dimanche", ];
+    const wordList2 = ["baobab", "arbre", "gourmand", "gras", "seum", "caca", "tournevis", "marteau", "canif", "ciseau", "téléphone", "scotch", "tourtel", "infection", "pensement", "chapeau", "canapé", "vélo", "livre", "écran", "singe", "bouffon", "morve", "pupitre", "bonjour", "coucou", "hirondelle", "baka", "sylvain", "dimanche" ];
     const randomWord2 = getRandomWord2(wordList2);
     console.log("Mot choisi au hasard :", randomWord2);
 

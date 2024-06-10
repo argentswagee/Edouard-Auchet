@@ -1,6 +1,11 @@
 document.getElementById('menu').style.display = 'none';
 var prv = false;
 
+window.addEventListener('click', function () {
+  var audio = document.getElementById("music");
+  audio.play();
+})
+
 document.getElementById('menulogo').addEventListener('click', function(){
   if (prv === false) {
     document.getElementById('menu').style.display = 'block';
